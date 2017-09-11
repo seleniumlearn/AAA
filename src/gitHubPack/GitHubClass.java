@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.BeforeTest;
@@ -13,6 +14,7 @@ public class GitHubClass {
 	@Test
 	public void google() {
 		driver.get("https://www.google.com/");
+		driver.findElement(By.name("q")).sendKeys("seleniumlearn.com");
 
 	}
 	@BeforeTest
