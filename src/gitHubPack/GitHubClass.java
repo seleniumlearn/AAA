@@ -11,7 +11,7 @@ import org.testng.annotations.BeforeTest;
 public class GitHubClass {
 	WebDriver driver;
 	@Test
-	public void f() {
+	public void google() {
 		driver.get("https://www.google.com/");
 
 	}
