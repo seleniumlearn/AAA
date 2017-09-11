@@ -14,6 +14,7 @@ public class GitHubClass {
 	@Test
 	public void google() {
 		driver.get("https://www.google.com/");
+		
 		driver.findElement(By.name("q")).sendKeys("www.seleniumlearn.com");
 
 	}
